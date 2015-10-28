@@ -1,14 +1,15 @@
-link(href="css/warband.css",rel="stylesheet")
-script(src="js/warbands_timer.js")
+extends top_banner.jade
 
-h1 Time Until Next Wave
-div#clockdiv
-	div
-		span.hours
-		div.smalltext
-	div
-		span.minutes
-		div.smalltext
-	div
-		span.seconds
-		div.smalltext
+block content
+    div#content
+        h1 Time Until Next Wave
+        div#clockdiv
+            div
+                span.hours
+                div.smalltext
+            div
+                span.minutes
+                div.smalltext
+            div
+                span.seconds
+                div.smalltext
